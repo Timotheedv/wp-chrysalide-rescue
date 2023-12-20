@@ -1,0 +1,870 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main p{
+    color: #385FC4;
+}
+
+main h3{
+    font-size: 22px;
+    padding-bottom: 4%;
+}
+
+
+
+/*Notre concept*/
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, #385FC4, rgba(255, 255, 255, 0.62)), url('images/concept-img2.png');
+    position: absolute;
+    z-index: 0;
+  }
+
+
+.notre-concept {
+    height: 100vh;
+    width: 100%;
+    background-image: url('img-bg/Partners-People.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.div-concept1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alignement à gauche */
+    width: 35%;
+    color: #ffffff;
+    margin-left: 18%;
+    z-index: 2;
+    font-family: Paytone One, sans-serif;
+}
+
+.div-concept1 h1{
+    font-size: 80px;
+    font-family: Paytone One, sans-serif;
+}
+
+
+
+.div-concept1 p{
+    font-size: 18px;
+    color: #ffffff !important;
+}
+
+/*inclusivité*/
+.inclusivité {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+
+.div-inclu1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.inclu-flex{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+}
+.inclu-papillon{
+    width: 20%;
+    height: 20%;
+}
+
+.valeurs-inclu {
+    grid-column: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.valeurs-inclu1 {
+    color: #385FC4;
+    font-family: 'Paytone One', sans-serif;
+    line-height: 20px;
+    padding: 5%;
+}
+
+.valeurs-inclu1 h1{
+    font-size: 50px;
+}
+.valeurs-inclu1 h3{
+    color: #F0C735;
+}
+
+
+.valeurs-inclu2 {
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.inclu-img {
+    grid-column: 2 / 2;
+    width: 100%;
+}
+
+.inclu-img-1{
+    width: 80%;
+   
+}
+
+
+
+.div-inclu2 {
+    width: 100%;
+    
+}
+
+.schema-inclu {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+.img-schema{
+    width: 80%;
+
+}
+
+/*valeurs ecologie*/
+
+.écologie {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 100vh;
+    width: 100%;
+}
+
+.div-eco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 100px;
+    
+}
+
+.valeurs-eco{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 2;
+    background-color: #fff;
+
+}
+
+
+.wp-block-eco{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding-left: 2%;
+}
+.eco-flex{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   font-family: Paytone One, sans-serif;
+    
+}
+
+.eco-papillon{
+    width: 30%;
+    height: 30%;
+
+}
+
+.wp-container-eco{
+    margin: auto;
+    padding: 5%;
+}
+
+.valeurs-eco1 h1{
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+    font-size: 50px;
+}
+.valeurs-eco1 h3 {
+    color: #76AF53;
+    font-family: Paytone One, sans-serif;
+    margin-left: auto;
+}
+
+.valeurs-eco1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-bottom: 25px;
+    margin-left: auto;
+
+
+
+}
+
+.valeurs-eco2 {
+    font-size: 24px;
+}
+.img-eco{
+    grid-column: 1 / 2;
+
+}
+
+.img-eco-1{
+    width: 80%;
+    height: 80%;
+}
+
+
+/*technologies*/
+
+
+.technologie {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+    width: 100%;
+}
+
+.techno-flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.techno-papillon{
+    width: 20%;
+    height: 20%;
+  
+}
+
+.div-techno {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 100px;
+}
+
+.valeurs-techno {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 2;
+}
+
+.valeurs-techno1 h1{
+    color: #385FC4;
+    font-family: Paytone One, sans-serif;
+    font-size: 50px;
+}
+.valeurs-techno1 h3 {
+    color: #F6CACA;
+    font-family: Paytone One, sans-serif;
+}
+
+.valeurs-techno1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.valeurs-techno2 {
+    font-size: 24px;
+}
+.img-techno {
+    grid-column: 2 / 2;
+    position: relative;
+}
+
+.techno-img-1{
+    width: 100%;
+    height: 100%;
+}
+
+/*Adherer*/
+#adherer {
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-adherer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+  
+
+}
+
+.div-besoin{
+
+color: #385FC4;
+font-weight: 400;
+font-family: 'Paytone one', sans-serif;
+font-size: 42px;
+}
+
+.div-rejoindre {
+
+color: #385FC4;
+font-weight: 400;
+font-family: 'Paytone One', sans-serif;
+font-size: 64px;
+}
+
+
+.div-bouton button {
+    width: 400px;
+    height: 100px;
+    background-color: #F0C735;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.wp-block-columns.wp-block-inclu.is-layout-flex {
+    padding : 0;
+}
+
+.wp-block-image.size-full.eco-papillon {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.wp-block-image.size-full.eco-papillon img {
+    width: 95px;
+    height: 95px; 
+    object-fit: cover;
+}
+
+
+.wp-valeurs-h1.has-large-font-size {
+    margin-bottom: 0.2em;
+}
+
+
+.wp-block-columns.is-layout-flex {
+    gap: 0 !important;
+}
+
+
+
+
+/*Responsive*/
+
+
+@media only screen and (max-width: 1650px) {
+
+    .techno-img-1{
+        padding-top: 18%;
+    }
+    
+
+    .div-rejoindre {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1592px) {
+
+    .concept1 h1{
+        font-size: 60px;
+    }
+
+    .concept1 p{
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1450px) {
+
+
+    .inclusivité{
+        padding: 3%;
+        height: 60vh;
+     }
+ 
+     .ecologie{
+         padding: 3%;
+         height: 60vh;
+     }
+ 
+     .technologie{
+         padding: 3%;
+         height: 60vh;
+     }
+ 
+     #adherer{
+         padding: 3%;
+         height: 100vh;
+     }
+
+    .div-rejoindre {
+        font-size: 40px;
+    }
+    
+
+    .div-besoin{
+        font-size: 30px;
+    }
+
+   .valeurs-inclu2 p{
+       font-size: 20px;
+       font-family: Paytone One, sans-serif;
+    }
+
+    .valeurs-eco2 p{
+        font-size: 20px;
+    }
+
+    .valeurs-techno2 p{
+        font-size: 20px;
+    }
+
+    .div-inclu1{
+        gap: 50px;
+    }
+
+    .div-eco{
+        gap: 50px;
+    }
+
+    .div-techno{
+        gap: 50px;
+    }
+    .schema-inclu {
+        width: 100%;
+        padding-left: 10%;
+      
+    
+    }
+    
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .div-concept1{
+        width: 50%;
+    }
+
+    .inclusivité{
+       padding: 3%;
+       height: 60vh;
+    }
+
+    .ecologie{
+        padding: 3%;
+        height: 60vh;
+    }
+
+    .technologie{
+        padding: 3%;
+        height: 60vh;
+    }
+
+    #adherer{
+        padding: 3%;
+        height: 100vh;
+    }
+
+    .div-techno{
+        align-items: center;
+       
+    }
+
+    .div-eco{
+        align-items: center;
+    }
+
+    .div-inclu1 {
+        align-items: center;
+    }
+    
+    .img-inclu{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        
+    }
+
+    .inclu-img-1{
+       width: 80%;
+       padding-top: 30%;
+    }
+    .img-eco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    
+    }
+
+    .img-techno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    
+    }
+
+    .img-eco-1{
+        width: 100%;
+    }
+
+    .img-techno-1{
+        width: 100%;
+    
+    }
+
+    .img-inclu-1{
+        width: 100%;
+    }
+
+    .schema-inclu {
+        width: 100%;
+        padding-left: 10%;
+      
+    
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1075px) {
+
+    .écologie{
+        height: 60vh;
+    }
+
+    .technologie{
+        height: 60vh;
+    }
+
+    .inclusivité{
+        height: 60vh;
+        justify-content: space-evenly;
+    }
+
+    #adherer{
+        height: 60vh;
+    }
+
+   
+    
+
+
+.div-concept1{
+    width: 80%;
+}
+    
+    .valeurs-eco h1{
+        font-size: 35px;
+    }
+
+    .valeurs-inclu1 h3{
+        font-size: 18px;
+    }
+
+    .inclu-img-1{
+        width: 80%;
+        padding-top: 30%;
+     }
+
+    
+
+    .valeurs-inclu1 h1{
+        font-size: 35px;
+    }
+
+    .valeurs-eco1 h3{
+        font-size: 18px;
+    }
+
+    .img-eco-1{
+        width: 100%;
+    }
+
+    .valeurs-techno1 h1{
+        font-size: 35px;
+    }
+
+    .valeurs-techno1 h3{
+        font-size: 18px;
+    }
+
+    .techno-img-1{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 985px) {
+
+    .écologie{
+        height: 60vh;
+    }
+
+    .technologie{
+        height: 60vh;
+    }
+
+    .inclusivité{
+        height: 60vh;
+    }
+
+    #adherer{
+        height: 60vh;
+    }
+
+    .div-besoin{
+        font-size: 25px;
+    }
+
+    .div-rejoindre{
+        font-size: 30px;
+    }
+
+    .div-bouton button {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .div-adherer{
+        text-align: center;
+    }
+
+    .img-eco-1{
+        width: 80%;
+    }
+
+    .techno-img-1{
+        width: 80%;
+    
+    }
+
+    .inclu-img-1{
+        width: 80%;
+        padding-top: 40%;
+     } 
+
+    .img-inclu-1{
+        width: 80%;
+    }
+
+    .valeurs-inclu2 p{
+        font-size: 16px;
+    }
+
+    .valeurs-eco2 p{
+        font-size: 16px;
+    }
+
+    .valeurs-techno2 p{
+        font-size: 16px;
+    }
+
+    .schema-inclu {
+        width: 100%;
+        padding-left: 14%;
+      
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+   
+
+    main img {
+        padding-bottom: 3%;
+    }
+
+    .div-concept1 {
+        width: 100%;
+        margin-left: 0;
+        padding: 5%;
+    }
+
+    .div-concept1 h1{
+        font-size: 50px;
+    }
+
+    .div-concept1 p{
+        font-size: 16px;
+    }
+
+    .div-inclu1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding-bottom: 4%;
+    }
+
+    .div-inclu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    
+    .inclu-img-1{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    
+
+    .techno-img-1{
+        margin-inline: auto;
+    }
+
+    .div-eco{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .div-techno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .techno-img-1{
+        padding-top: 30%;
+    }
+
+    .div-adherer {
+        padding: 20px;
+    }
+
+    .div-besoin{
+        font-size: 20px;
+    }
+
+    .div-rejoindre {
+        font-size: 40px;
+    }
+
+    .div-bouton button {
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+
+    .div-adherer{
+        text-align: center;
+    }
+
+    .div-adherer div {
+        padding-bottom: 5%;
+    }
+
+    .div-besoin{
+        font-size: 20px;
+    }
+
+    .div-rejoindre {
+        font-size: 25px;
+    }
+
+    .inclusivité{
+        height: 100%;
+    }
+
+    .écologie{
+        height: 100%;
+        padding-bottom: 6%;
+    }
+    
+    .technologie{
+        height: 100%;
+        
+    }
+        
+    .img-techno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .techno-img-1{
+            padding-top: 0%;
+            width: 80%;
+        }
+
+        .img-inclu-1{
+            width: 80%;
+        }
+    
+    .img-eco{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+        
+        .schema-inclu {
+            width: 100%;
+            padding-left: 8%;
+          
+        
+        }
+        
+        .img-schema{
+            width: 100%;
+        
+        }
+
+       
+
+
+   
+    
+}
